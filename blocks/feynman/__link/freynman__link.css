@@ -1,0 +1,22 @@
+.freynman__link {
+  position: absolute;
+  top:50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.freynman__link::after {
+  content: '\2192';
+  color: #2f80ed;
+}
+
+.freynman__link:hover {
+  color: #1f1f1f;
+  opacity: 0.3;
+  transition: opatity linear;
+}
