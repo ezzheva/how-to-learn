@@ -6,14 +6,3 @@
   text-decoration: none;
   color: #2f80ed;
 }
-
-.khan__buy-link::after {
-  color: #2f80ed;
-  content: '\2192';
-}
-
-.khan__buy-link:hover {
-  color: #1f1f1f;
-  opacity: 0.3;
-  transition: opatity linear;
-}
